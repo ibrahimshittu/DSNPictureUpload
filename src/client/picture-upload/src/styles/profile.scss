@@ -1,0 +1,38 @@
+.profile {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    margin-bottom: 0.85em;
+
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1em;
+        min-width: 180px;
+
+        .accountName {
+            font-weight: 500;
+            font-size: medium;
+            margin-bottom: 5px;
+            
+
+            &:hover {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+
+        .caption {
+            color: #8e8e8e;
+
+            &.small {
+                font-size: 0.8em;
+            }
+        }
+    }
+
+    a {
+        text-align: right;
+        width: 100%;
+    }
+}
