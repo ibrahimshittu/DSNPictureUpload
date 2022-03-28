@@ -1,6 +1,8 @@
 import "../styles/card.scss";
 import Profile from "./Profile";
 import CardMenu from "./CardMenu";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import lazyload from "../images/lazyload.jpg";
 
 function Card(props) {
   const {
@@ -16,7 +18,7 @@ function Card(props) {
       <header>
         <Profile iconSize="medium" accountName={accountName} storyBorder={storyBorder} />
       </header>
-      <img className="cardImage" src={image} alt="card content" />
+      <LazyLoadImage effect="blur" placeholderSrc={lazyload} className="cardImage" src={image} alt="image" />
       <CardMenu caption={caption}/>
       <div className="timePosted">{hours} HOURS AGO </div>
     </div>
