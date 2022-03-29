@@ -21,6 +21,13 @@ const reducer = (state, action) => {
                 isFetching: true
 
             };
+        case "LOGOUT":
+            return {
+                user: null, 
+                error: false, 
+                isFetching: false
+
+            };
         default:
             return state
     }
