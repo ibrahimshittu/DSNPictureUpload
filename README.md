@@ -1,4 +1,4 @@
-# Memories Aplication
+# Memories Application
 
 Share Memories with the world, Create Account, Login and Share Memories with the world!
 
