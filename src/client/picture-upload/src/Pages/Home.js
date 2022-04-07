@@ -1,7 +1,7 @@
 import React from 'react'
-import Navigation from '../componenets/Navigation'
-import Cards from '../componenets/Cards'
-import Sidebar from '../componenets/Sidebar'
+import Navigation from '../components/Navigation'
+import Cards from '../components/Cards'
+import Sidebar from '../components/Sidebar'
 import "../styles/app.scss";
 import { useContext } from 'react';
 import { context } from '../context/context';

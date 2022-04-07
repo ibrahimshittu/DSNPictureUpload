@@ -1,7 +1,7 @@
-import Signup  from "../componenets/Signup"
+import Signup  from "../components/Signup"
 import { Link } from "react-router-dom"
 
-import Footer from "../componenets/Footer"
+import Footer from "../components/Footer"
 import "../styles/signupPage.scss"
 
 function SignupPage() {

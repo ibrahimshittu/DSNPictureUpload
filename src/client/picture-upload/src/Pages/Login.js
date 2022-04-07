@@ -1,7 +1,7 @@
-import Login  from "../componenets/Login"
+import Login  from "../components/Login"
 import { Link } from "react-router-dom"
 
-import Footer from "../componenets/Footer"
+import Footer from "../components/Footer"
 import "../styles/loginPage.scss"
 
 function LoginPage() {

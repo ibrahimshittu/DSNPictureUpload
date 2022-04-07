@@ -1,23 +1,15 @@
-# Picture upload
+# Memories Aplication
 
-Login into the application and upload your favorite pictures
+Share Memories with the world, Create Account, Login and Share Memories with the world!
 
-## Introduction
-
-This is a simple application that allows users to upload their favorite pictures.\
-The application allows users to create accounts, login into their account and upload \
-images.
-
-## Challenge1 (Backend)
+## Backend
 
 You are to create the following API routes that do the following:
 
-- allows users to create account and login to the application with only email and password
-- allow a logged in user to upload images of max size of 1MB
+- Users can create an account and login with only email and password
+- Logged in users to upload images of max size of 1MB
 
-The following route is to be created on the back-end of the application
-
-- API routes for users to create accounts and login to the application
+- API routes
   - `POST: /api/v1/user/signup`
     - email and password only
   - `POST: /api/v1/user/signin`
@@ -29,15 +21,22 @@ The following route is to be created on the back-end of the application
   - `GET: /api/v1/images`
     - get all the images that you uploaded
 
-Note that all routes except for `signup` and `signin` are protected
+All routes except for `signup` and `signin` are protected
 
-## Challenge2 (Frontend)
+## Frontend
 
-You are to create mini React application to consume the routes created at the backend;
+- Users can signup and signin using Emails, and Password
+- Authorized users can upload images
+- Authorized users can view the images they uploaded
 
-- create forms that allow users to signup and signin into the application
-- authorised users can upload images
-- authorized users can view the images they uploaded
+## Technologies
+
+- Python
+- JavaScript
+- Django Rest Framework
+- ReactJS
+- Cloudinary
+- PostgreSQL
 
 ## Guidelines
 
@@ -53,11 +52,3 @@ The following guidelines should be strictly adhered to;
 7. All backend code should go into the `api` folder and frontend code should go into `client`
 8. Remember to remove `git.keep` in the folders
 9. You have a total of 1 week to complete this task and submit the link of your application via email
-
-## Extra point offering
-
-Extra points will be given to applicants that follows this `GIT` workflow:
-
-- For every feature built, branch out of `main` and create a Pull Request to `main` when
-  you are done working on the feature.
-- Commit messages should be simple and detailed.
